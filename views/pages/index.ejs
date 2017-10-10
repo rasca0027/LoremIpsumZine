@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <% include ../partials/header.ejs %>
+  <style>
+    .main {
+        background-image: url(http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/zineCover_final1.jpg);
+        /* Full height */
+        height: 100vh; 
+
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+
+    #logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 50px;
+        z-index: 10;
+    }
+
+    #footer {
+        font-size: 12px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.025em;
+        font-weight: 400;
+        font-family: Helvetica;
+        color: white;
+        bottom: 20px;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 50vh;
+        right: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .next-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+  </style>
+</head>
+
+<body style="background-color: #bad5d9">
+    <div class="main">
+        <div><a href="/"><img src="logo.png" id="logo"></a></div> 
+        <div class="next-btn">
+            <a href="/editors">
+                <img style="width:100%" src="https://d30y9cdsu7xlg0.cloudfront.net/png/18954-200.png">
+            </a>
+        </div>
+        <span id="footer">By NYU Integrated Digital Media</span>
+    </div>
+</body>
+</html>

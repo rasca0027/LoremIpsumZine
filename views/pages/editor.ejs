@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <% include ../partials/header.ejs %>
+  <style>
+    #logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 50px;
+        z-index: 10;
+    }
+    .next-btn {
+        position: absolute;
+        top: 50vh;
+        right: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+        z-index: 10;
+    }
+
+    .next-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+    #social-icon {
+        height: 30px;
+    width: 30px;
+    margin: 15px;
+    }
+    h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 40pt;
+        font-family: Helvetica, Sans-Serif;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .content {
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+
+    #art {
+        height: 100vh;
+    }
+    .paragraph {
+        text-align: left;
+        color: white;
+        font-size: 18px;
+        font-family: Helvetica;
+        padding: 5px 10%;
+    }
+    .subheading {
+        font-weight: 900;
+        font-family: Helvetica;
+        letter-spacing: 0.075em;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        padding: 10px 10%;
+    }
+  </style>
+</head>
+
+<body style="background-color: #0e1526; overflow: hidden;">
+    <div class="">
+        
+        <div><a href="/"><img src="logo.png" id="logo"></a></div> 
+        <div class="next-btn">
+            <a href="/project/1">
+                <img style="width:100%" src="https://d30y9cdsu7xlg0.cloudfront.net/png/18954-200.png">
+            </a>
+        </div>
+        
+        <!-- content -->
+        <div class="row">
+            <div class="col-md-6 content">
+                <h1> <%= title %> </h1>
+                <p class="paragraph">
+                    “The future is already here, it's just not very evenly distributed.” --- William Gibson
+                </p>
+                <p class="paragraph">
+                    Launched in 2004, the Integrated Digital Media program is offered at New York University’s Tandon School of Engineering. We are at the intersection of creative practices and technology. We thrive on creating diverse projects. With art and technology, IDM students are building the future together.
+
+                </p>
+                <p class="subheading">About Lorem Ipsum</p>
+                <p class="paragraph">
+                    Lorem Ipsum was conceptualized in June 2017 by Kelly Chang. She then recruited a small group of graduate students. As the summer went on, our team grew to include undergraduate students. Just as our name implies, we are the placeholder for Integrated Digital Media students to showcase their work.
+                </p>
+                <p class="subheading">Get Involved and Follow Us!</p>
+                <p class="paragraph">
+                    <a href="mailto:loremipsum.mag@gmail.com">Submit your work</a> to the next issue! 
+                    <br>
+                    <a href="https://twitter.com/search?q=%40loremipsum_zine&amp;src=typd"><img id="social-icon" src="http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/07/twitter.png"></a>
+                    <a href="https://www.instagram.com/loremipsum_zine/"><img id="social-icon" src="http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/07/ig.png"></a>
+                    <a href="https://www.facebook.com/loremipsumzine/"><img id="social-icon" src="http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/07/fb.png"></a> 
+                </p>
+            
+            
+            </div>
+            <div class="col-md-6">
+                <img src="http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/editorNoteIllustration.jpg" id="art">
+            </div>
+        </div> <!-- end row -->
+
+    </div>
+</body>
+</html>
+
