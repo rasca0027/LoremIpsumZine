@@ -13,7 +13,6 @@ Follow us:
 
 
 TODO:
-- index
 - issue num
 - flip effect
 - scroll to see longer text
