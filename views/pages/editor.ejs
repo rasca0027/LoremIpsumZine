@@ -5,6 +5,9 @@
 
   <% include ../partials/header.ejs %>
   <style>
+    #nav {
+        padding: 15px;
+    }
     #logo {
         position: absolute;
         top: 20px;
@@ -64,16 +67,47 @@
         font-size: 20px;
         padding: 10px 10%;
     }
+    .next-btn {
+        position: absolute;
+        top: 50vh;
+        right: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    .next-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+    .prev-btn {
+        position: absolute;
+        top: 50vh;
+        left: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    .prev-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
   </style>
 </head>
 
 <body style="background-color: #0e1526; overflow: hidden;">
     <div class="">
         
-        <div><a href="/"><img src="logo.png" id="logo"></a></div> 
+        <div><a href="/"><img src="/logo.png" id="logo"></a></div> 
         <div class="next-btn">
             <a href="/project/1">
-                <img style="width:100%" src="https://d30y9cdsu7xlg0.cloudfront.net/png/18954-200.png">
+                <img style="width:100%" src="/next.png" id="nav">
+            </a>
+        </div>
+        <div class="prev-btn">
+            <a href="/">
+                <img style="width:100%" src="/back.png" id="nav">
             </a>
         </div>
         

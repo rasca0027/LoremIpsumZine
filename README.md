@@ -14,9 +14,6 @@ Follow us:
 
 TODO:
 - index
-- different image handle
-- logo
-- page num
 - issue num
-- static file/image
+- flip effect
 - catalog (optional)

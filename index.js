@@ -60,6 +60,7 @@ app.get('/project/:id', function(request, response) {
         'tag1color': color1,
         'tag2': tag2,
         'tag2color': color2,
+        'pageNum': id,
         'next': parseInt(request.params.id) + 1,
         'prev': parseInt(request.params.id) - 1
     };
