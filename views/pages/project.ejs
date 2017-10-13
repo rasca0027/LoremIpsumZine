@@ -79,11 +79,21 @@
     }
     #tag {
         color: white!important;
-    padding: 5px;
-    letter-spacing: 0.025em;
-    font-family: Helvetica;
-    font-weight: 900;
-    margin-left: 10%;
+        padding: 5px;
+        letter-spacing: 0.025em;
+        font-family: Helvetica;
+        font-weight: 900;
+        margin-left: 10%;
+    }
+    #portrait {
+        height: 100vh;
+        display: block;
+        margin: 0px auto;
+    }
+    #landscape {
+        width: 100%;
+        margin-top: 25%;
+        padding-right: 120px;
     }
   </style>
 </head>
@@ -110,7 +120,10 @@
                 <!-- if -->
                 <% if (types == 'video') { %>
                     <iframe style="width: 100%; height: calc(50vw/1.77);margin-top: 25%;padding-right: 140px " src="<%= link %>" frameborder="0" allowfullscreen=""></iframe> 
-                    
+                <% } else if (types == 'portrait') { %>
+                    <img src="<%= link %>" id="portrait">  
+                <% } else if (types == 'landscape') { %>
+                    <img src="<%= link %>" id="landscape">
                 <% } %>
             </div>
         </div> <!-- end row -->
