@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <% include ../partials/header.ejs %>
+  <style>
+    #nav {
+        padding: 15px;
+    }
+    #logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 50px;
+        z-index: 10;
+    }
+    .next-btn {
+        position: absolute;
+        top: 50vh;
+        right: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .next-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+    .prev-btn {
+        position: absolute;
+        top: 50vh;
+        left: 20px;
+        width: 65px;
+        border: 2px solid white;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    .prev-btn:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+    .section-img {
+        text-align: center;
+        height: 20vh;
+        margin: 20% auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+    #tagline {
+        color: white;
+        font-family: 'Helvetica';
+        font-size: 20pt;
+        text-align: center;
+    }
+  </style>
+</head>
+
+<body style="background-color: <%= color %>">
+
+    <% include ../partials/nav.ejs %>
+    
+    <div>
+        <img src="<%= image %>" class="section-img">
+        <p id="tagline"><%= tagline %></p>    
+    </div>
+    
+
+</body>
+</html>

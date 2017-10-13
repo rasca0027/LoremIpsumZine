@@ -16,4 +16,6 @@ TODO:
 - index
 - issue num
 - flip effect
+- scroll to see longer text
+- reviews
 - catalog (optional)
