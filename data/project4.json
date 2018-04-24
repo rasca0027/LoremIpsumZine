@@ -1,13 +1,12 @@
 {
-    "title": "Heartbeat",
-    "tag": ["ESC", "Illustration"],
-    "author": "Derek Dincer",
+    "title": "One Day",
+    "tag": [ "Video", "Motion Capture","3D"],
+    "author": "Wenqi Teresa Yang",
     "authorLink": "",
-    "info": "BS in IDM | dd2558@nyu.edu",
+    "info": "BS in IDM | wy527@nyu.edu",
     "content": [
-        "Titled \"Heartbeat\", this piece was part of an exhibition that was made in accordance to the theme “Technology in Our Lives.",
-        "Created with the intention of staggering the viewer, the image holds a mirror to society as it aims to show human beings dependence on technology. Given how many technological advancements have taken place over the course of the last few years, it should come as no surprise how human beings have become increasingly dependent on it for social interaction. A result of Derek’s personal experiences - the piece dwells on how art such as music have become an essential part of our everyday lives. Heartbeat explores the idea of music and solitude by drawing a parallel between headphones and arteries. Inspired by the works of Alex Katz and Ajit Johnson, Heartbeat also pays homage to scientist-cum-artist Mela Zuljevic."
+        "Citizens of a surreal pink city in the wonder desert land welcomes the beginning of a day."
     ],
-    "type": "portrait", 
-    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/Heartbeat.png"
+    "type": "video", 
+    "link": "https://player.vimeo.com/video/237341592"
 }

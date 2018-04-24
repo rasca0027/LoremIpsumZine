@@ -1,13 +1,12 @@
 {
-    "title": "Thorn Of Cloud",
-    "tag": ["Space", "Installation"],
-    "author": "Wenqi Teresa Yang",
-    "authorLink": "http://peacecolombia2016.wixsite.com/peace",
-    "info": "BS in IDM | wy527@nyu.edu",
+    "title": "Talk To Abolitionist",
+    "tag": [ "Installation"],
+    "author": ["Yu-Hsuan Lin", "Yunfang Shi", " Harshita Nedunuri"],
+    "authorLink": ["http://www.yuhsuanlin.com/"],
+    "info": "MS in IDM | yhl437@nyu.edu",
     "content": [
-        "Creative technology helps broaden the idea of fashion and revive the lifeless waste that people would otherwise toss away. Selected as one of the fashion entries for the NYU Shanghai Trash Fashion Show 2017 - this dress debuted on the runways of Himalaya Museum of Art, Shanghai. The dress explores the themes of pollution and industrialization.",
-        "The plastic bags are representative of the haze and smog; whereas the wires and straws are rigid structures that define the edifices and highways that have risen and carved their way into the city. While this piece has mainly been put together using recycled materials, it also incorporates LED lights to add an element of futurism to the dress. The flow of gradient through the dress was created using an Arduino."
+        "This project is designed to reveal the immense history behind 227 Abolitionist Place Museum Heritage Center which is located in New York City. New York was the second largest slave-owning state in the nation during the 1800s, but the area of Downtown Brooklyn was once an enclave of abolitionist activity. 227 Abolitionist Place was one of the safe houses along the Underground Railway for African-Americans and escaping slavery. The goal of this project is to allow visitors to learn the history of African American and the Underground Railroad in NYC without too much reading. The creators built an interactive exhibit which can allow people to communicate with the abolitionist through a telephone. Also, visitors can watch the stereoscope to view the historical situation. The exhibit also serves to raise awareness of the roots of slavery in New York."
     ],
     "type": "landscape", 
-    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/cloud_zine.jpg"
+    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2018/04/Screen-Shot-2018-04-22-at-11.45.02-AM-2.png"
 }

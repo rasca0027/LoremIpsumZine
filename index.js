@@ -10,21 +10,16 @@ app.use(express.static(__dirname + '/public'));
 // index of urls
 var index = [
     '/editors', 
-    '/section/ENTER', 
     '/project/1', 
     '/project/2', 
     '/project/3', 
-    '/section/ESC', 
     '/project/4',
     '/project/5',
     '/project/6',
-    '/section/CTRL',
     '/project/7',
     '/project/8',
-    '/section/space',
     '/project/9',
-    '/project/10',
-    '/section/review'
+    '/project/10'
     ];
 var tagsColorTable = {
     'ENTER': '#f4764a',
@@ -37,7 +32,10 @@ var tagsColorTable = {
     'CTRL': '#f7bf21',
     'AR': '#A7C407',
     'Space': '#42d398',
-    'Installation': '#5F7EF8'
+    'Installation': '#5F7EF8',
+    'MoCap': '#f7bf21',
+    'Game': '#F27593',
+    'Animation': '#f4764a'
 };
 
 // views is directory for all template files

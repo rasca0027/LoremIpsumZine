@@ -1,12 +1,12 @@
 {
-    "title": "Glitched",
-    "tag": ["ESC", "Design"],
-    "author": "Yurou Zeng",
-    "authorLink": "http://yurouzeng.portfoliobox.net/contact",
-    "info": "BS in IDM | yurouzeng@nyu.edu",
+    "title": "Tailwind",
+    "tag": ["Game"],
+    "author": "Alexandros Lotsos",
+    "authorLink": "https://lotsosidmthesis.tumblr.com/",
+    "info": "MS in IDM | anl365@nyu.edu",
     "content": [
-        "Inspired by Lola Dupre’s photo collage, the artist manipulates the photo to resemble computer glitches. The piece aims to capture the glitches that exist within people - even more fitting, in this day and age, how technology has become an extension of human beings."
+        "Tailwind is a 3D platformer meant to assist in the teaching of vector mathematics to middle school and high school students."
     ],
-    "type": "portrait", 
-    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/glitched4smaller2.png"
+    "type": "landscape", 
+    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2018/04/Tailwind-Beta-011.png"
 }

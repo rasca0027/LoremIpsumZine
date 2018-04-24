@@ -1,13 +1,16 @@
 {
-    "title": "Facade",
-    "tag": ["ESC", "Creative Coding"],
-    "author": "Mayukh Goswami",
-    "authorLink": "http://www.mayukhgoswami.com/about/",
-    "info": "MS in IDM | mg5223@nyu.edu",
+    "title": "Wrath of the AlpaGods",
+    "tag": ["VR"],
+    "author": ["Alexis Trevizo", "Linda László"],
+    "authorLink": "",
+    "info": ["BS in IDM | at2848@nyu.edu",""],
     "content": [
-        "The piece is a metaphorical imagination of the future as a sort of authoritarian capitalist hell, similar to Philip K Dick/Blade Runner. Inspired by the synthesis of Foucault’s panopticon and Guy Debord’s idea of the Spectacle, the human here is the Subject who is bombarded with surveillance and overwhelming barrage of advertisements selling products and sex. Advertisement itself constitutes a form of self policing mechanism, in effect, serving as a panoptic device of control. Advertisements don’t sell a product, but a fetishized lifestyle. It serves, by selling a lack, to sell this false consciousness. The third person view of the person looking at the artwork is a view without the trappings of false consciousness, as \"They Live\".",
-        "The walk cycle of the subject is hand drawn pixel animation and the rest of the background and foreground is programmatically generated using p5.js. The background score that I'm using Dubstepology by Alumo."
+        "Alexis and Lazlo chose to create this project because they wanted people to engage inside and outside of VR in a unique and memorable way. Locomotion in VR (like teleporting and joystick movements) can be boring and unnatural, and can cause motion sickness for some.",
+        "They found that the majority of VR experiences today are isolating, artificial and unintuitive. Alexis and Lazlo wanted to create an experience that would be the opposite by engaging users’ with organic motion, easy to play, and encourages social interaction.",
+        "They asked ourselves, \"how can we create something that is fun to experience for not only the person who is wearing the headset, but also for the people who aren’t in the virtual world?\"",
+        "Thus, they came up with the idea of having users’ movement in real life that would translate into virtual locomotion. For example, if you were to jog in place in real life, you would experience forward locomotion within the virtual world. We designed a virtual world that encourages users to engage the virtual world with their bodies in real life. By designing the experience to reward more obscure/wild movements, Alexis and Lazlo were able to engage the people who were in the virtual space, as well as those around them that could enjoy the ridiculousness of their friends’ motion. The creators also made sure anyone can participate by creating a flexible play style that can be utilized for different situations because they strongly believe that no one, regardless of their physical abilities, should be left out. For example,  if someone isn’t comfortable standing in VR, they are more than welcome to enjoy the experience while sitting, even laying down or any position they’d like.",
+        "With this project, Alexis and Lazlo hope to encourage audiences and participants to engage in VR in different ways as VR should be enjoyed from any perspective. They hope that audiences come away with the joy of having experienced our experience and having watched friends make wild movements to achieve a goal in the experience. Lastly, Alexis and Lazlo want their experience to be an enjoyable experience for all."    
     ],
     "type": "video", 
-    "link": "https://www.youtube.com/embed/j7YKnbcDX_0"
+    "link": "https://drive.google.com/file/d/1TAupuufGP6VY6VzHdrJaogtJdqLGML8m/preview"
 }

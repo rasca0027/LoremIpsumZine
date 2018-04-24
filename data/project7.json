@@ -1,13 +1,13 @@
 {
-    "title": "Book Of Cassandra",
-    "tag": ["CTRL", "Creative Coding"],
-    "author": "Kelly Chang",
-    "authorLink": "http://www.kaihan.me/",
-    "info": "MS in IDM | kelly.chang@nyu.edu",
+    "title": "Untitled",
+    "tag": ["Creative Coding"],
+    "author": ["YuHsuan Lin", "Davon Larson"],
+    "authorLink": ["http://www.yuhsuanlin.com/", ""],
+    "info": ["MS in IDM | yhl437@nyu.edu","MS in IDM | drl369@nyu.edu"],
     "content": [
-        "Cassandra is gifted the power of prophecy in Greek mythology. However, as she is cursed, nobody believes her prophecy. In some Asian countries, once a child is born, their parents will take them to a fortune teller or astronomer to predict the child’s whole life, from what job they will choose to when and where they are going to get married. Those predictions are usually on big events. Career, marriage, money. That is all people care about their future lives. What if there is a kind of prophecy, that only predicts trivial things? Even if trivial predictions are to be believed, does that make any difference at all? On the other hand, what if the predictions are so absurd that you can immediately assure that it is not going to happen? Do you still believe in the prophecy?",
-        "The culture I grew up with believes in a very different kind of fortune telling from western culture. But in all kinds of culture, there are superstitious people. Prophecies sometimes give hope to those who believes. But to deeply rely on it, is a totally different thing. I’m trying to show the absurdness by making a tool that only predicts trivial or surreal statements."
+        "This interactive piece is a statement about privacy in today's camera heavy world. It lets users walk up to a TV and see themselves as a shader on different channels, and the purpose was to explore the feeling you get while being watched. It also flips the script in a way that makes you both the viewer and performer. What Davon and Yu Hsuan are trying to convey here is how society is obsessed with cameras and zombie media. They wanted to explore what would happen if they combined two mediums from two different time frames. Hopefully people think twice before sharing data on the internet, privacy is a lot more important than everyone often realizes.",
+        "Though Microsoft has discontinued the Kinect, it's still a favorite of a lot of Processing and OpenFrameworks developers and artists. OpenFrameworks is a powerful C++ library that gives you a range of fantastic tools like the ability to use shaders and filters like the ones you see here. Being here at IDM and surrounded by such creative people, they are excited if someone else was inspired to create something with this instruments because of this project."
     ],
-    "type": "landscape", 
-    "link": "http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/cassandra.png"
+    "type": "video", 
+    "link": "https://www.youtube.com/embed/TvYEo_89Zdo"
 }
