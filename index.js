@@ -22,19 +22,16 @@ var index = [
     '/project/10'
     ];
 var tagsColorTable = {
-    'ENTER': '#f4764a',
     '360 Video': '#AF1FFF',
     'Illustration': '#5734FF',
     'VR': '#456E37',
-    'ESC':'#F27593' ,
     'Creative Coding': '#A0225B',
     'Design': '#0792C4',
-    'CTRL': '#f7bf21',
     'AR': '#A7C407',
-    'Space': '#42d398',
     'Installation': '#5F7EF8',
     'MoCap': '#f7bf21',
     'Game': '#F27593',
+    'Music Video': '#7142f4',
     'Animation': '#f4764a'
 };
 

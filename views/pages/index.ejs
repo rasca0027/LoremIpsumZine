@@ -5,65 +5,190 @@
 
   <% include ../partials/header.ejs %>
   <style>
-    #nav {
-        padding: 15px;
+    @font-face {
+        font-family: "DINBold";
+        src:url("/font/DIN-BoldItalic.otf");
     }
+    @font-face {
+        font-family: "DIN";
+        src:url("/font/DIN-MediumItalic.otf");
+    }
+    
     .main {
-        background-image: url(http://bxmc.poly.edu/LoremIpsum/wp-content/uploads/2017/08/zineCover_final1.jpg);
+        background-image: url(bg.png);
         /* Full height */
         height: 100vh; 
-
         /* Center and scale the image nicely */
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
     } 
-
-    #logo {
+    #top-layer {
         position: absolute;
-        top: 20px;
-        left: 30px;
-        width: 50px;
-        z-index: 10;
-    }
-
-    #footer {
-        font-size: 12px;
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        letter-spacing: 0.025em;
-        font-weight: 400;
-        font-family: Helvetica;
-        color: white;
-        bottom: 20px;
-    }
-
-    .next-btn {
-        position: absolute;
-        top: 50vh;
         right: 20px;
-        width: 65px;
-        border: 2px solid white;
-        border-radius: 50%;
+        bottom: 0px;
+        width: 60%;
+    }
+    .titles {
+        color: white;
+        position: absolute;
+        top: 15%;
+        font-family: "DINBold";
+        width: 100%;
+    }
+    h1 {
+        font-family: "DINBold";
+    }
+    h2 {
+        font-family: "DIN";
+    }
+    
+    #view {
+        position: absolute;
+        right: 10%;
+        max-width: 18%;
+        bottom: 5px;
+    }
+    #view:hover {
+        transform: scale(1.05);
     }
 
-    .next-btn:hover {
-        background-color: white;
-        cursor: pointer;
+    #right-blur {
+        position: absolute;
+        right: -150px;
+        top: -100px;
+        max-width: 650px;
     }
+
+    .floating {
+        animation-name: floating;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    @keyframes floating {
+        from { transform: translate(0,  0px); }
+        40%  { transform: translate(20px, 15px); }
+        70%  { transform: translate(20px, -5px); }
+        to   { transform: translate(0px, -0px); }
+    }
+
+    .floating1 {
+        animation-name: floating;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    @keyframes floating1 {
+        from { transform: translate(0,  0px); }
+        40%  { transform: translate(-15px, -10px); }
+        60%  { transform: translate(-25px, -25px); }
+        80%  { transform: translate(-5px, -10px); }
+        to   { transform: translate(0px, -0px); }
+    }
+
+    .floating2 {
+        animation-name: floating;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    @keyframes floating2 {
+        from { transform: translate(0,  0px); }
+        40%  { transform: translate(10px, 15px); }
+        60%  { transform: translate(10px, 5px); }
+        80%  { transform: translate(-5px, 2px); }
+        to   { transform: translate(0px, -0px); }
+    }
+
+    .floating5 {
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    @keyframes floating5 {
+        from { transform: translate(0,  0px); }
+        17%  { transform: translate(40px, 20px); }
+        34%  { transform: translate(40px, -20px); }
+        50%  { transform: translate(0px, 0px); }
+        67%  { transform: translate(-40px, 20px); }
+        84%  { transform: translate(-40px, -20px); }
+        to   { transform: translate(0px, -0px); }
+    }
+    .left-blur {
+        position: absolute;
+        left: 15%;
+        top: 10%;
+    }
+
+    .left-blur img {
+        position: absolute;
+        max-width: 400px;
+    }
+    .middle {
+        position: absolute;
+        left: 55%;
+        bottom: 18%;
+    }
+    .right {
+        position: absolute;
+        right: 50px;
+        top: 25%;
+    }
+
   </style>
 </head>
 
 <body style="background-color: #bad5d9">
     <div class="main">
-        <div><a href="/"><img src="logo.png" id="logo"></a></div> 
+        
+        <div id="right-blur" class="floating">
+            <img src="/1x/right_top_blur.png">
+        </div>
+        
+        <div class="left-blur">
+            <img src="/1x/left_pink_hair.png" class="floating1">
+            <img src="/1x/left_blue_layer.png" class="floating2">
+            <img src="/1x/left_gradient.png" class="floating3">
+        </div>
+
+        <div class="middle">
+            <img src="/1x/center_small_blur.png">
+        </div>
+
+        <div class="right floating5">
+            <img src="/1x/right_bubble.png">
+        </div>
+        
+        
+        <div class="titles">
+            <img src="/1x/left_line.png">
+            <span style="display: inline-block;">
+                <h1>NEW YORK UNIVERSITY</h1>
+                <h2>INTEGRATED DIGITAL MEDIA</h2>
+            </span>
+            <a href="/editors"><img id="view" src="/1x/button.png"></a>
+        </div>
+        
+        <img id="top-layer" src="/1x/layer_top.png">
+        
+        <!--
         <div class="next-btn">
             <a href="/editors">
                 <img style="width:100%" src="/next.png" id="nav">
             </a>
         </div>
-        <span id="footer">By NYU Integrated Digital Media</span>
+        -->
+
     </div>
 </body>
 </html>
