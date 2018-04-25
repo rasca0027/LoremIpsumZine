@@ -14,6 +14,7 @@
         src:url("/font/DIN-MediumItalic.otf");
     }
     
+    body { background-color: black; }
     .main {
         background-image: url(bg.png);
         /* Full height */
@@ -68,6 +69,7 @@
         margin-left: 30px;
         margin-top: 5px;
     }
+
     @keyframes floating {
         from { transform: translate(0,  0px); }
         40%  { transform: translate(20px, 15px); }
@@ -101,12 +103,28 @@
     }
     @keyframes floating2 {
         from { transform: translate(0,  0px); }
-        40%  { transform: translate(10px, 15px); }
-        60%  { transform: translate(10px, 5px); }
-        80%  { transform: translate(-5px, 2px); }
+        40%  { transform: translate(30px, 25px); }
+        60%  { transform: translate(30px, 15px); }
+        80%  { transform: translate(-10px, 5px); }
         to   { transform: translate(0px, -0px); }
     }
 
+    .floating3 {
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    @keyframes floating3 {
+        from { transform: translate(0,  0px); }
+        20%  { transform: translate(-20px, 0px); }
+        40%  { transform: translate(-30px, 30px); }
+        60%  { transform: translate(-20px, 20px); }
+        80%  { transform: translate(10px, 10px); }
+        to   { transform: translate(0px, -0px); }
+    }
     .floating5 {
         animation-name: floating;
         animation-duration: 4s;
@@ -146,9 +164,18 @@
     }
 
   </style>
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
-<body style="background-color: #bad5d9">
+<body>
+<section class="screen">
+<div class="content">
     <div class="main">
         
         <div id="right-blur" class="floating">
@@ -168,10 +195,13 @@
         <div class="right floating5">
             <img src="/1x/right_bubble.png">
         </div>
-        
+       
+        <img src="/1x/pixel_bling1.png" style="position: absolute;left:80px;top:35%;max-width:40px; ">
+        <img src="/1x/pixel_bling3.png" style="position: absolute;right:200px;top:40%;max-width:60px; ">
+
         
         <div class="titles">
-            <img src="/1x/left_line.png">
+            <img src="/1x/left_line.png" style="max-width:45%">
             <span style="display: inline-block;">
                 <h1>NEW YORK UNIVERSITY</h1>
                 <h2>INTEGRATED DIGITAL MEDIA</h2>
@@ -181,14 +211,11 @@
         
         <img id="top-layer" src="/1x/layer_top.png">
         
-        <!--
-        <div class="next-btn">
-            <a href="/editors">
-                <img style="width:100%" src="/next.png" id="nav">
-            </a>
-        </div>
-        -->
 
     </div>
+
+</div>
+</section>
+
 </body>
 </html>

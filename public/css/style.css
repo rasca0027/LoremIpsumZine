@@ -1,0 +1,34 @@
+
+
+button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+.screen {
+  background-color: #e1eef6;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  content: " ";
+  overflow: hidden;
+  
+    // Fallback for old browsers
+  background: #16222A;
+
+  background: -webkit-linear-gradient(to left, #16222A , #3A6073);
+  background: linear-gradient(to left, #16222A , #3A6073);
+  
+  background-size: cover;
+  
+  
+   color: $color-text;
+}
