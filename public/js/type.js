@@ -1,4 +1,4 @@
-+(function () {
+(function () {
     "use strict";
 
     Element.prototype.typed = function (options) {
@@ -15,7 +15,7 @@
             cursor                  : options.cursor ? options.cursor.addCursor     || false    : false,
             cursorType              : options.cursor ? options.cursor.cursorType    || '|'      : '|',
             blinkSpeed              : options.cursor ? options.cursor.blinkSpeed    || '500'    : '500',
-            cursorColor             : options.cursor ? options.cursor.cursorColor   || '#2c3e50': '#2c3e50',
+            cursorColor             : options.cursor ? options.cursor.cursorColor   || '#fff': '#fff',
             cursorShadow            : options.cursor ? options.cursor.cursorShadow  || false    : false,
             removeCursor            : options.cursor ? options.cursor.removeCursor  || false    : false,
             callback                : options.callback || null
@@ -90,41 +90,34 @@
 ////////////////////////////////////////////////////
 ////////////////////////////////////////////////////
 ////////////////////////////////////////////////////
+function write() {
 
-let bar = document.querySelector('#bar'),
-    foo = document.querySelector('#foo'),
-    delta = document.querySelector('#delta');
-
-
-
-
-foo.typed() //CALL THE FUNCTION WITH THE DEFAULT OPTIONS
-
-delta.typed({ //CALL THE FUNCTION DIRECTLY WITH OPTIONS
-    cursor: {
-        addCursor: true,
-        removeCursor: true
-    }
-}) 
-
-
-const options = { 
-    timing: {
-        speed           : 100,          //DEFAULT IS 160ms
-        delay           : 5000,         //DEFAULT IS FALSE
-        startPosition   : 2,            //DEFAULT IS 0
-        pausePosition   : 23,           //DEFAULT IS NULL
-        pauseDuration   : 3000          //DEFAULT IS NULL
-    },
-    cursor: {
-        addCursor       : true,         //DEFAULT IS FALSE
-        cursorType      : '_',          //DEFAULT IS '|'
-        blinkSpeed      : 200,          //DEFAULT IS 500ms
-        cursorColor     : '#c0392b',    //DEFAULT IS '#2c3e50'
-        cursorShadow    : true,         //DEFAULT IS FALSE
-        removeCursor    : false         //DEFAULT IS FALSE
-    },
-    callback: ()=> alert('This is a callback function!') //CALLBACK FUNCTION, DEFAULT IS NULL
+    var twriter = document.getElementById('writer');
+    twriter.typed({ //CALL THE FUNCTION DIRECTLY WITH OPTIONS
+        cursor: {
+            addCursor: true,
+            cursorType: '_',  
+            cursorColor: '#fff',
+            removeCursor: false
+        }
+    }); 
+    
+    var twriter2 = document.getElementById('writer2');
+    twriter2.typed({ //CALL THE FUNCTION DIRECTLY WITH OPTIONS
+        timing: {
+            delay: 3000 
+        },
+        cursor: {
+            addCursor: true,
+            cursorType: '_',  
+            cursorColor: '#fff',
+            removeCursor: false
+        }
+    }); 
 }
 
-bar.typed(options) //CALL THE FUNCTION UNSING A VARIABLE AS OPTIONS
+$(document).ready(function() {
+    setTimeout(write, 1500); 
+});
+
+
