@@ -1,9 +1,9 @@
 {
     "title": "Tailwind",
     "tag": ["Game"],
-    "author": "Alexandros Lotsos",
+    "author": ["Alexandros Lotsos"],
     "authorLink": "https://lotsosidmthesis.tumblr.com/",
-    "info": "MS in IDM | anl365@nyu.edu",
+    "info": ["MS in IDM | anl365@nyu.edu"],
     "content": [
         "Tailwind is a 3D platformer meant to assist in the teaching of vector mathematics to middle school and high school students."
     ],

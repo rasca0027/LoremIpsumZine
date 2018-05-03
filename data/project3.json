@@ -1,9 +1,9 @@
 {
     "title": "Time Machine",
     "tag": ["MoCap","Installation"],
-    "author": "Vhalerie Lee",
+    "author": ["Vhalerie Lee"],
     "authorLink": "",
-    "info": "MS in IDM | vhalerie@nyu.edu",
+    "info": ["MS in IDM | vhalerie@nyu.edu"],
     "content": [
         "Time Machine is a hybrid motion capture installation and live performance that questions mankind's technological dependence and how it influences behavior and movement. The installation transports the user to three different time periods in New York City through magical totems.",
         "The group created this project to demonstrate how motion capture technology can be used in the future to control and influence a person's movements. There are other technologies but since this was created during Bodies in Motion class, it uses motion capture tech. The creators hope the audience will be more conscious of the singularity happening soon (machine and humans becoming one)."    

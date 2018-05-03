@@ -88,7 +88,7 @@ app.get('/project/:id', function(request, response) {
 
     var context = {
         'title': content.title,
-        'author': content.author,
+        'authors': content.author,
         'authorLink': content.authorLink,
         'info': content.info,
         'description': content.content,

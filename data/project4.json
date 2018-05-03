@@ -1,9 +1,9 @@
 {
     "title": "One Day",
     "tag": ["MoCap", "Animation"],
-    "author": "Wenqi Teresa Yang",
+    "author": ["Wenqi Teresa Yang"],
     "authorLink": "",
-    "info": "BS in IDM | wy527@nyu.edu",
+    "info": ["BS in IDM | wy527@nyu.edu"],
     "content": [
         "Citizens of a surreal pink city in the wonder desert land welcomes the beginning of a day."
     ],
